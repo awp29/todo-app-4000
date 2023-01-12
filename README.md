@@ -17,8 +17,8 @@ https://user-images.githubusercontent.com/99478348/212176034-1b9cea64-65cf-414b-
 - Backend Restful API to manage/persist Todos
 
 ## Trade offs
-- I think the biggest trade off is not having any tests. In real world production I would never produce something without out test but for this I feel having something function and working is better than having something half done with a few nice tests
-- Design I'm not the greatest designer, it would be great to have a figma file to work from
+- I think the biggest trade off is not having any tests. In real world production I would never produce anything without tests but for this I feel having something functional and working is better than having something half done with a few nice tests
+- Design, I'm not the greatest designer, it would be great to have a figma file to work from
 
 # Web App Philosophy
 
@@ -28,7 +28,7 @@ My philosophy for building web apps is all about shipping features at a consiste
 
 This is one of the most important things to get right because if your components become a mess and bloated it slows down everything. Creating new features become a grind. With my components I try to keep them as small as possible and declarative as possible. I feel like with this approach your components are always open and adaptable. You can never predict what is coming down the line from designers and there’s always an obscure button or card that comes along that you could never predict. Components need to be in a position that they can adapt to all the weird edge cases that come along. Having components that are massive, have tons of props and are full of if statements are not adaptable and cannot change to handle these edge cases. 
 
-This is hard to explain quick but please take a look at this tech talk on the subject I gave at a local tech meet up
+This is hard to explain quickly but please take a look at this tech talk on the subject I gave at a local tech meet up
 
 [https://www.youtube.com/watch?v=cIHVjjtYLRU&ab_channel=DevHubNorth](https://www.youtube.com/watch?v=cIHVjjtYLRU&ab_channel=DevHubNorth)
 
