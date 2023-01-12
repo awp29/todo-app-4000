@@ -8,11 +8,17 @@ https://user-images.githubusercontent.com/99478348/212176034-1b9cea64-65cf-414b-
 - Add todos
 - Mark Todos as complete
 - Complete all todos
+- Uses local storage to persist todos
 
 ## Still Todo
 - Deleting todos, this is a priority. I feel it's not a fully functional app until deleting todos is added
 - Responsive design, making it look good on small screens and general tiding up of the UI
 - Testing, using React-Testing-Library to provide trust that the applcation is working after updates to the code
+- Backend Restful API to manage/persist Todos
+
+## Trade offs
+- I think the biggest trade off is not having any tests. In real world production I would never produce something without out test but for this I feel having something function and working is better than having something half done with a few nice tests
+- Design I'm not the greatest designer, it would be great to have a figma file to work from
 
 # Web App Philosophy
 
