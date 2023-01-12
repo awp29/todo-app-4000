@@ -57,6 +57,8 @@ function App() {
     const todoIndex = todos.findIndex((t) => t.id === todo.id);
     todos[todoIndex].completed = !todos[todoIndex].completed;
     setTodos([...todos]);
+
+    window.localStorage.setItem("todos", JSON.stringify([...todos]));
   };
 
   return (
